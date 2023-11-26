@@ -1,0 +1,273 @@
+
+*{
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+html{ 
+  scroll-behavior: smooth; 
+  background-color: #252A2E;
+  color: white;
+}
+hr{
+  margin: 10px 125px;
+  border: 1px solid yellow;
+}
+header .nav{
+  width: 100%;
+  top:0;
+  background-color: yellow;
+  position: fixed;
+  color: #252A2E; 
+  padding: 10px;
+}
+header .nav ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+header .nav ul li a{
+  color: black;
+  margin: 0 15px;
+  padding: 5px;
+  transition: .3s;
+  text-decoration: none;
+}
+header .nav ul li a:hover{
+  font-weight: bold;
+  border: 1px solid #252A2E;
+  border-radius: 10px;
+}
+
+
+
+ /* SOBRE MI  */
+.sobremi .contenedor-header{
+  color: white;
+  text-align: center;
+  margin: 30px 25px;
+  
+  padding: 45px 20px 0 20px;
+}
+.sobremi .contenedor-header h1 {
+  font-weight: bold;
+  margin: 10px;
+}
+.sobremi .contenedor-header p{
+  font-size: 22px;
+  font-family: 'Comic Neue', cursive;
+} 
+.sobremi .contenedor-banner{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+  margin: 25px 25px;
+}
+.sobremi .contenedor-banner .columna{
+  text-decoration: none;
+  margin:10px;
+  text-align: center;
+}
+.sobremi .contenedor-banner .columna img{
+  min-width: 200px ;
+  max-width: 300px;
+  border: 3px solid white;
+  width: 80%;
+  border-radius: 100%;
+  margin: 10px;
+  padding: 3px;
+}
+.sobremi .contenedor-banner .columna h2{
+  padding: 5px ;
+  margin: 10px 35px;
+  font-family: 'Comic Neue', cursive;
+}
+.sobremi .contenedor-banner .columna ul{
+  list-style: none;
+  text-align: left;
+}
+.sobremi .contenedor-banner .columna ul li{
+  margin-bottom: 14px;
+  font-size: 18px;
+}
+.sobremi .contenedor-banner .columna ul li::before{
+  content: "→";
+}
+.sobremi .contenedor-banner .columna span{
+  background-color: yellow;
+  color: #252A2E;
+  font-weight: bold;
+}
+.sobremi .contenedor-redes {
+  margin: 25px;
+}
+.sobremi  .contenedor-redes {
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.sobremi .contenedor-redes a{
+  color: white;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  margin: 10px;
+  font-size: 26px;
+  transition: .3s;
+}
+.sobremi .contenedor-redes a:hover{
+  background-color: yellow; 
+  border: none; 
+  color: #252A2E;
+}
+
+
+
+/* PRESENTACION */
+.presentacion{
+  height: 80vh;
+  margin: 0 25px;
+  padding: 25px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+.presentacion .contenido-presentacion h3{
+  color: yellow;
+  margin: 15px;
+  font-size: 30px;
+}
+.presentacion .contenido-presentacion p{
+  margin: 15px;
+  padding-inline: 20px;
+  font-size:large;
+}
+
+
+
+/* ESTUDIOS  */
+.estudios {
+  
+  text-align: center;
+  margin: 40px 25px;
+  color: #252A2E;
+  border-radius: 15px;
+
+}
+.estudios h3{
+  color: yellow;
+  padding: 80px 15px 0 15px;
+  font-size: 30px;
+}
+.estudios .card{
+  margin: 10px;
+  padding: 40px;
+  background-color: #252A2E;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 15px;
+}
+.estudios .card .toggle-btn{
+  background-color: #252A2E;
+  color: yellow;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.estudios .card .toggle-btn:hover{
+  border: 1px solid #252A2E;
+  background-color: yellow;
+  color: #252A2E;
+  font-weight: bold;
+}
+.estudios .card span{
+  color: yellow;
+}
+.estudios .card p{
+  color: white;
+}
+.contenido {
+    display: none;
+}
+.show {
+    display: block;
+}
+
+
+/* INTERESES Y HABILIDADES */
+
+.intereses-habilidades{
+  margin:25px;
+  padding: 25px;
+}
+.intereses-habilidades h3{
+  font-size: 20px;
+  color: yellow;
+  padding: 15px;
+  text-align: center;
+}
+.intereses-habilidades .flexbox{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.intereses-habilidades .flexbox .int-hab {
+  width: 120px;
+  height: 120px;
+  background-color: #5f6061;
+  border-radius: 10px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: .3s;
+}
+
+.intereses-habilidades .flexbox .int-hab:hover {
+  background-color: yellow;
+  color: black;
+}
+.intereses-habilidades .flexbox .int-hab i{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+
+
+/* FOOTER */
+footer{
+  background-color: #252A2E;
+  color: #F9DEC9;
+  padding: 50px 0 30px 0;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+footer .arriba{
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  color: black;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -25px;
+  border-radius: 50%;
+  line-height: 50px;
+}
