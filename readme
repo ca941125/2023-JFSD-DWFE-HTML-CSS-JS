@@ -1,0 +1,51 @@
+Este proyecto corresponde al primer tramo de la segunda etapa de ARGENTINA PROGRAMA 4.0
+
+La consigna consiste en realizar un Currículum Vitae y volcarlo en un repositorio a través de GitHub,
+donde se encuentre contenido HTML y CSS pertinente a lo dado en la Semana 02.
+Para ello, deberá seguirse los siguientes pasos:
+    1. Crear un repositorio privado llamado 2023-JFSD-DWFE-HTML-CSS-JS.
+    2. Importar el repositorio en la computadora personal.
+    3. Abrir la carpeta del repositorio en Visual Studio Code.
+    4. Crear un archivo llamado cv.html, cuyo contenido debe proveer los datos pertinentes para un CV personal. Adicionalmente, debe ubicarse cada elemento que se adjunte al archivo HTML en el mismo directorio; por ejemplo, imágenes (mínimamente, una foto en primer plano).
+    5. Agregar el contenido HTML en un commit llamado “html”, donde deberá encontrarse el archivo .html y las imágenes que se utilicen en el mismo.
+    6. Crear un archivo llamado estilo.css en el mismo directorio, cuyo contenido debe proveer las propiedades que estilizan al documento HTML al menos debe estilizarse todas las etiquetas de un mismo tipo (por ejemplo, div o p), todas las etiquetas de una misma clase y la etiqueta con un identificador determinado. Dentro de estos estilos, deberá utilizarse en conjunto con lo anteriormente dicho:
+        ● Un selector con otro que sea descendiente o de combinación
+        ● Un selector con otro que sea pseudoclase
+        ● Un selector con otro que sea pseudoelemento
+    7. Enlazar la hoja de estilo en cascada dentro del archivo HTML con su etiqueta adecuada.
+    8. Agregar el contenido CSS en un commit llamado “css”, donde deberá encontrarse el archivo .css y la modificación de cv.html.
+    9. Crear un archivo llamado programacion.js en el mismo directorio, cuyo contenido debe proveer las propiedades que otorgan comportamiento al documento HTML donde se empleen mínimamente 3 funciones, cada una realizada tras alguna acción sobre el CV.
+    10. Enlazar el contenido JS dentro del archivo HTML con su etiqueta adecuada. Además, asignar la acción correspondiente a la función escrita en JavaScript.
+    11. Agregar el contenido JS en un commit llamado “javascript”, donde deberá encontrarse el archivo .js y la modificación de cv.html.
+    12. Empujar los commits al repositorio remoto (push).
+    13. Agregue a los siguientes colaboradores a su repositorio remoto, son los usuarios de los profesores para comprobar de realización de la tarea:
+        ● rubencastano
+        ● natayadev
+        ● rodrigoantoniak
+        ● maxpipoka
+
+ENTREGA: Individual.
+LUGAR DE ENTREGA: El Currículum Vitae debe subirse por una cuenta propia de GitHub.
+TIEMPO PARA DESARROLLAR: 01 semana.
+TIEMPO DE CIERRE: 28 de junio de 2023 a las 23:59.
+CRITERIOS DE EVALUACIÓN
+    ● LECTURA EXPLORATORIA Y LECTURA PROFUNDA. [10 PUNTOS]
+        Efectuar 2 lecturas exploratorias del total y una lectura en profundidad de los materiales de estudio
+        aplicables al trabajo.
+    ● REDACCIÓN. [10 PUNTOS]
+        Elaboración adecuada y pertinente al contenido de un CV.
+    ● ORTOGRAFÍA. [10 PUNTOS]
+    ● ÍTEMS SOLICITADOS (13 ítems). [13 PUNTOS]
+    ● ESTÉTICA EN LA PRESENTACIÓN. [17 PUNTOS]
+        Considerar que los tipos de fuentes sean adecuadas y homogéneas, que las imágenes o gráficos
+        que se utilicen tengan una representación correcta, la estructuración de los contenidos.
+    ● CREATIVIDAD / ORIGINALIDAD. [20 PUNTOS]
+    ● CRITERIOS / SEMÁNTICA DE CODIFICACIÓN. [10 PUNTOS]
+        Ajustar el uso de elementos, atributos y propiedades a HTML5, CSS3 y ECMAScript 13. Realizar
+        la identación adecuada, en favor a la facilidad de lectura. Realizar comentarios que ayuden a la
+        comprensión del contenido de los archivos fuente.
+    ● TIEMPO DE ENTREGA. [10 PUNTOS]
+        Cumplir con el plazo de entrega.
+
+
+Este trabajo corresponde con el mes de Julio de año 2023. Y cuenta con correcciones luego de las observaciones del profesor.
